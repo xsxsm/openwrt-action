@@ -19,6 +19,6 @@
 
 # CONFIG_PACKAGE_luci-app-filebrowser=y
 git clone https://github.com/immortalwrt/openwrt-filebrowser.git package/luci-app-filebrowser
-
+git clone https://github.com/sbwml/luci-app-alist package/alist
 git clone https://github.com/vernesong/OpenClash.git  package/luci-app-openclash
 git clone https://github.com/thinktip/luci-theme-neobird.git  package/luci-theme-neobird
