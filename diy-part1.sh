@@ -17,8 +17,8 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 # git clone https://github.com/shidahuilang/openwrt-package.git package/luci-app-alist
-sed -i '$a src-git shidahuilang https://github.com/shidahuilang/openwrt-packages' feeds.conf.default
-
+# sed -i '$a src-git shidahuilang https://github.com/shidahuilang/openwrt-packages' feeds.conf.default
+git clone https://github.com/sbwml/luci-app-alist.git  package/luci-app-alist
 git clone https://github.com/immortalwrt/openwrt-filebrowser.git package/luci-app-filebrowser
 git clone https://github.com/vernesong/OpenClash.git  package/luci-app-openclash
 git clone https://github.com/thinktip/luci-theme-neobird.git  package/luci-theme-neobird
